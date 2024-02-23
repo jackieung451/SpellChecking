@@ -6,7 +6,7 @@ In this Spell Checker assignment, I utilized Node.js to create a command line pr
 2) npm install
 3) Make sure you have the dictionary.txt
 4) Type some words onto file-to-check.txt
-3) Type into the console node spellChecker.js dictionary.txt file-to-check.txt
+5) Type into the console node spellChecker.js dictionary.txt file-to-check.txt
 
 #Assumptions
 1) This program only takes in a .txt file for the dictionary.
@@ -14,9 +14,10 @@ In this Spell Checker assignment, I utilized Node.js to create a command line pr
 3) If the word is a lowercase letter "i", then the suggestion will automatically suggest "I".
 4) Capital letter "I" is considered a correctly spelled word.
 5) This program utilizes a third party library of "fast-levenshtein", which has the algorithm to perform the comparison between the two files.
+6) This program treats single letter words valid if it is not the letter "i" because typos of most single letters do not have a valid dictionary word associated with them.
 
 #Edge Cases
-1) This program does not check for abbreviated words (Ms.) and conjunction words (don't).
+1) This program does not check for abbreviated words (Mrs.) and contraction words (don't).
 2) It does not account for pronouns.
 3) It does not account for niche words such as restaurant names, company names, etc.
 
