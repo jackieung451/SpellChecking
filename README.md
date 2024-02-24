@@ -2,7 +2,7 @@
 In this Spell Checker assignment, I utilized Node.js to create a command line program to take in two files and reconcile misspelled words. Specifically, this command line program takes in a dictionary file to be used as the answer key and checks another text file against the dictionary file. During the process of checking each word, this program will write into the console output of the misspelled word along with the line number, column number, context, and suggested words.
 
 **How To Run The Program**
-1) git clone 
+1) git clone https://github.com/jackieung451/SpellChecking.git
 2) npm install
 3) Make sure you have the dictionary.txt
 4) Type some words onto file-to-check.txt
