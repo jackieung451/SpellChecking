@@ -6,7 +6,7 @@ In this Spell Checker assignment, I utilized Node.js to create a command line pr
 2) npm install
 3) Make sure you have the dictionary.txt
 4) Type some words onto file-to-check.txt
-5) Type into the console node spellChecker.js dictionary.txt file-to-check.txt
+5) Type into the console "node spellChecker.js dictionary.txt file-to-check.txt"
 
 **Assumptions**
 1) This program only takes in a .txt file for the dictionary.
